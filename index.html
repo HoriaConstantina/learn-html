@@ -15,8 +15,8 @@
 		// var outside a function is GLOBAL SCOPED
 		var thisIsAGlobalVariable = 22;
 		function runThisSometimes(){
-			alert('run this sometimes');
-			thisIsAGlobalVariable = 33;
+			thisIsAGlobalVariable +=10;
+			console.log(thisIsAGlobalVariable);
 		}
 		console.log(thisIsAGlobalVariable);
 	</script>
