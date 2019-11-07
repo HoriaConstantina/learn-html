@@ -33,3 +33,7 @@ Sign up with Netlify.com please
 This is a `highlight` for individuals words / blocks of text
 
 > This can be used to quote a whole paragraph ('blockquote')
+
+We can use regular html for images
+
+<img src="https://i.kym-cdn.com/entries/icons/original/000/030/157/womanyellingcat.jpg" width="150">
