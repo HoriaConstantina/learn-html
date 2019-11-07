@@ -36,4 +36,4 @@ This is a `highlight` for individuals words / blocks of text
 
 We can use regular html for images
 
-<img src="https://i.kym-cdn.com/entries/icons/original/000/030/157/womanyellingcat.jpg" width="150">
+<img src="https://i.kym-cdn.com/entries/icons/original/000/030/157/womanyellingcat.jpg" width="550">
