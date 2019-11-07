@@ -7,11 +7,12 @@
 Semantic elements are HTML ‘div’ elements which have a name related to the function
 
 Examples
-Nav
-Section
-Aside
-Header
-footer
+	
+	Nav
+	Section
+	Aside
+	Header
+	footer
 
 # Connecting your code to a live Netlify repo
 
