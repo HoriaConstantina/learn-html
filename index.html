@@ -12,10 +12,13 @@
 	<h1>Hello World Web Page</h1>
 	<p>Sample web page</p>
 	<script>
-		alert('this is a page');
+		// var outside a function is GLOBAL SCOPED
+		var thisIsAGlobalVariable = 22;
 		function runThisSometimes(){
 			alert('run this sometimes');
+			thisIsAGlobalVariable = 33;
 		}
+		console.log(thisIsAGlobalVariable);
 	</script>
 	<button onclick="runThisSometimes()">Run This Sometimes</button>
 	<ul>
