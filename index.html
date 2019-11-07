@@ -18,7 +18,7 @@
 		function runThisSometimes(){
 			thisIsAGlobalVariable +=10;
 			console.log(thisIsAGlobalVariable);
-			document.getElementByID("putSomeDataHere").innerText=thisIsAGlobalVariable;
+			document.getElementByID("putSomeDataHere").innerText = thisIsAGlobalVariable;
 			myArray.push(thisIsAGlobalVariable);
 			console.log(myArray);
 		}
@@ -29,6 +29,7 @@
 		console.log(thisIsAGlobalVariable);
 	</script>
 	<button onclick="runThisSometimes()">Run This Sometimes</button>
+	<button onclick="popFromArray()">pop from array</button>
 	<ul>
 		<li>item</li>
 		<li>item</li>
