@@ -14,10 +14,13 @@
 	<script>
 		// var outside a function is GLOBAL SCOPED
 		var thisIsAGlobalVariable = 22;
+		var myArray = [];
 		function runThisSometimes(){
 			thisIsAGlobalVariable +=10;
 			console.log(thisIsAGlobalVariable);
 			document.getElementByID("putSomeDataHere").innerText=thisIsAGlobalVariable;
+			myArray.push(thisIsAGlobalVariable);
+			console.log(myArray);
 		}
 		console.log(thisIsAGlobalVariable);
 	</script>
