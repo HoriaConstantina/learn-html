@@ -38,7 +38,7 @@ We can use regular html for images
 
 <img src="https://i.kym-cdn.com/entries/icons/original/000/030/157/womanyellingcat.jpg" width="550">
 
-we can also <u>underline</u> text
+we can also <ins>underline</ins> text
 
 ### Code highlighting
 ```
