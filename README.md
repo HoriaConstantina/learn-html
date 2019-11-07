@@ -47,3 +47,32 @@ int x = 1;
 
 	This is tabbed in once
 	It also can be used for code
+
+```java
+int x = 1;
+```
+
+```html
+<DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Page</title>
+	<style>
+		/* CSS goes here */
+	</style>
+</head>
+<body>
+	<li></li>
+	<h1>Hello World Web Page</h1>
+	<p>Sample web page</p>
+	<script>
+		alert('this is a page');
+		function runThisSometimes(){
+			alert('run this sometimes');
+		}
+	</script>
+	<button onclick="runThisSometimes()">Run This Sometimes</button>
+</body>
+</html>
+```
